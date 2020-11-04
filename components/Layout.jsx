@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <title>SteamGridDB Changelog</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet" />
         <link rel="alternate" type="application/rss+xml" title="SteamGridDB Changelog" href="/rss.xml" />
       </Head>
