@@ -10,8 +10,10 @@ changes:
   - name: Misc
     new:
       - Added this changelog.
+    fix:
+      - Fix Patreon badges not being assigned in some cases.
     update:
-      - Update [/projects](https://www.steamgriddb.com/projects) page to use new projects view.
+      - Update [/projects](https://www.steamgriddb.com/projects) page to use new projects view. [[1](https://discord.com/channels/488621078302949377/552548116700594176/771951961683001365)]
     remove:
       - Remove inaccurate project description text.
 ...
