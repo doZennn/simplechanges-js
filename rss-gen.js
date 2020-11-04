@@ -14,8 +14,14 @@ const feed = new Feed({
   updated: new Date(),
 });
 
-fs.readdirSync(changesDir).forEach((time) => {
-  const date = time.replace(/_/g, ':').replace('.yml', '');
+const datesSorted = fs.readdirSync(changesDir).map((time) => time.replace(/_/g, ':').replace('.yml', '')).sort((a, b) => {
+  if (new Date(a.time) < new Date(b.time)) {
+    return 1;
+  }
+  return -1;
+});
+
+datesSorted.forEach((date) => {
   feed.addItem({
     title: dayjs(date).format('MMM D, YYYY h:mm A'),
     id: date,
