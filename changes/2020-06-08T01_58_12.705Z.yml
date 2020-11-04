@@ -1,0 +1,9 @@
+---
+time: 2020-06-08T01:58:12.705Z
+changes:
+  - name: Report System
+    summary: You can now reports assets by clicking the report icon (🚩) below the image.
+  - name: Misc
+    fix:
+      - Fix position of filter types on logo search results. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/712988082445484062)]
+...

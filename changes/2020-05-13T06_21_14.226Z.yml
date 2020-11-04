@@ -1,0 +1,10 @@
+---
+time: 2020-05-13T06:21:14.226Z
+changes:
+  - name: Projects
+    new:
+      - Track custom logos for the Tetris project. [[1](https://discordapp.com/channels/488621078302949377/707792221780312074/709781286717489243)]
+    fix:
+      - Fix progress bar percentages overlapping. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/709861415607074903)]
+      - Fix duplicate listings for the Steam project. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/709864506637156383)]
+...

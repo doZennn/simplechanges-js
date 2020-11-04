@@ -1,0 +1,12 @@
+---
+time: 2020-02-03T15:54:30.921Z
+changes:
+  - new:
+      - Store data for original Steam assets when getting info from Steam (Capsules, Logos, Heroes, Logo Positions, etc)
+      - Show Steam data within a modal.
+    update:
+      - Update game pages to match the rest of the site.
+    fix:
+      - Fix pluralization wherever asset counts are shown.
+      - Fix modals cutting off on iOS.
+...

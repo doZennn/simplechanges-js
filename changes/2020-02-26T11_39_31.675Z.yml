@@ -1,0 +1,11 @@
+---
+time: 2020-02-26T11:39:31.675Z
+changes:
+  - name: New Project
+    summary: "**Steam Pre-Greenlight** https://www.steamgriddb.com/projects/steam-pre-greenlight [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/680103137612398592)]"
+  - name: Misc
+    new:
+      - Add filters to projects. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/680104893024960671)]
+    fix:
+      - Show yellow if game has at least 1 style per asset type completed (Wii U project only) [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/680068839857324061)]
+...

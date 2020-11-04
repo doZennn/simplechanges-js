@@ -1,0 +1,9 @@
+---
+time: 2020-04-29T10:07:55.675Z
+changes:
+  - name: Assets
+    fix:
+      - Fix some notes not getting cropped off properly [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/703572335692742727)]
+    update:
+      - Use the sum of upvotes and downvotes to sort assets.
+...

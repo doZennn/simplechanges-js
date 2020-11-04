@@ -1,0 +1,31 @@
+---
+time: 2020-10-07T06:33:10.948Z
+changes:
+  - name: Search Beta
+    summary: >
+      The new search is now available for testing. To make it easier for me to
+      keep track of bugs or catastrophes, the beta search will only be available
+      to Patrons and Moderators. Access will open up to everyone else once it is
+      deemed stable enough for a large amount of testers.
+
+      Only available for game pages for now. It will be extended to user pages,
+      the home, and the main search before the beta ends.
+
+      To opt-in, go to a game page and click "Try out the beta search!".
+  - name: Misc
+    fix:
+      - Fix animated logos not showing on game pages.
+      - >-
+        Fix ~~whatchamacallits~~ markdown parser showing html entities on
+        collection descriptions.
+        [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/750261753861898291)]
+      - Fix sorting logos on old search.
+      - Fix links to users not working in the reports list.
+      - >-
+        Fix user names not being editable.
+        [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/758254041637322762)]
+    new:
+      - 'Added Asset Removal #7: https://www.steamgriddb.com/help#asset-removal-7'
+    update:
+      - Make game links clickable in asset logs.
+...

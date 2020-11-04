@@ -1,0 +1,13 @@
+---
+time: 2019-06-15T07:05:20.624Z
+changes:
+  - new:
+      - Added more API endpoints
+      - Added more response details to API docs
+      - Added hero header explaining what the site is
+      - Added ability to go to user pages by username (/profile/doZennn)
+    update:
+      - Replace logo with a vector image
+    fix:
+      - Fix IE/Edge issues
+...

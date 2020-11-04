@@ -1,0 +1,17 @@
+---
+time: 2020-06-30T06:19:44.931Z
+changes:
+  - name: Notification System
+    summary: >
+      We now have a notification system with (very) basic functionality. I'm releasing this early to get the mod tools out sooner. Expect more polish and use out of this in the future!
+  - name: Report System
+    summary: >
+      Thanks to the feedback from the moderators, I have extended the reporting system to allow the reporter and moderators to comment on a report they made in case further discussion is needed. Moderators will also be able to lock assets from being edited by the uploader in response to special cases. You will also be alerted if a moderator has made any changes to your assets.  
+
+      All of these integrates into the new notification system.
+  - name: Misc
+    fix:
+      - Fixed custom avatars sometimes not updating on profiles.
+    update:
+      - Show an "Are you sure" popup when trying to close the page if assets are still in queue. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/722776786219302932)]
+...

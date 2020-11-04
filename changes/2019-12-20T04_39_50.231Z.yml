@@ -1,0 +1,13 @@
+---
+time: 2019-12-20T04:39:50.231Z
+changes:
+  - new:
+      - >
+        Added ability to mark uploads as NSFW  .
+
+        Upload freely without ruining the innocence of random people.
+    update:
+      - Change logo preview background to lighter color when hovering over it.
+      - Show warning if uploading a poster or hero sized image as a logo.
+      - Minor style changes.
+...

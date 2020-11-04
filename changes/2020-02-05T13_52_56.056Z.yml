@@ -1,0 +1,9 @@
+---
+time: 2020-02-05T13:52:56.056Z
+changes:
+  - new:
+      - Save `header_image` when getting info from Steam.
+    fix:
+      - Fix logos overflowing on mobile.
+      - Fix normal heroes not showing on game pages if "Always Show Adult Content" is on
+...

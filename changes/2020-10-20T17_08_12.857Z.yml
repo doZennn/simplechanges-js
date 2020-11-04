@@ -1,0 +1,16 @@
+---
+time: 2020-10-20T17:08:12.857Z
+changes:
+  - name: Search Beta
+    new:
+      - 'Added new search to /grids, /logos, and /heroes.'
+    update:
+      - Don't use the new search for pages that don't use filters.
+      - Show some text if nothing is found.
+    fix:
+      - Fix search cache not clearing assets from deleted users.
+  - name: Misc
+    update:
+      - Show less heroes on the homepage (14 -> 8)
+      - Don't show removed games in search results. (Old search)
+...

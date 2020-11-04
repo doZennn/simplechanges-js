@@ -1,0 +1,30 @@
+{
+  "name": "simplechanges-js",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "node rss-gen.js && next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "dayjs": "^1.9.4",
+    "feed": "^4.2.1",
+    "gray-matter": "^4.0.2",
+    "js-yaml": "^3.14.0",
+    "next": "^10.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-markdown": "^5.0.2",
+    "remark-gfm": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  }
+}

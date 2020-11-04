@@ -1,0 +1,15 @@
+---
+time: 2019-11-08T16:17:17.999Z
+changes:
+  - new:
+      - Add ability to upload Heroes (or Backgrounds for Galaxy 2.0)
+      - Add ability to filter search results by type (Animated, Static)
+      - Overhaul the upload form. You can now upload from any page by clicking "Upload" or by dragging images onto the page.
+    fix:
+      - Fix legacy API not returning expected results.
+    update:
+      - Rework the homepage.
+      - Rework User, Search, and Game pages.
+      - Save Tools (e.g. Dedicated Servers) and Applications (e.g. ASMR Universe, GameMaker Studio) when importing from Steam.
+      - Minor style changes everywhere.
+...

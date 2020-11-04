@@ -1,0 +1,28 @@
+---
+time: 2020-10-25T01:46:35.708Z
+changes:
+  - name: The GoldSrc Project
+    summary: >
+      A project to create covers for popular Half-Life mods in the style of the classic Half-Life box arts.
+
+      See the project page for more details:
+      https://www.steamgriddb.com/projects/goldsrc
+
+
+      Special thanks to Jib for stepping up to manage this project!
+  - name: Search Beta
+    new:
+      - Add a way to filter out untagged assets.
+      - Add labels to more filters.
+    update:
+      - Make selectors select the first selected item on first select.
+    fix:
+      - Fix Humor and Adult Content filters not doing anything.
+      - Performance optimizations.
+  - name: Misc
+    new:
+      - >-
+        Add ability to allow multiple contributors to add to the same collection. (Only used for the GoldSrc project for now, this isn't public yet)
+    update:
+      - Make the projects view on the homepage more compact.
+...

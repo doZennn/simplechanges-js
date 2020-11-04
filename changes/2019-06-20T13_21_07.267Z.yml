@@ -1,0 +1,8 @@
+---
+time: 2019-06-20T13:21:07.267Z
+changes:
+  - new:
+      - Add link to Java API wrapper to API Docs.
+    fix:
+      - More minor API fixes.
+...

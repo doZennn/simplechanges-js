@@ -1,0 +1,8 @@
+---
+time: 2020-01-29T13:12:13.827Z
+changes:
+  - new:
+      - Show platform icon next to image dimensions. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/671732767003770880)]
+    fix:
+      - Fix GOG background thumbnails cutting/stretching. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/671822543644131366)]
+...

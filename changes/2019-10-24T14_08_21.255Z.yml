@@ -1,0 +1,12 @@
+---
+time: 2019-10-24T14:08:21.255Z
+changes:
+  - new:
+      - Add ability to apply filters to the latest grids.
+      - Add infinite scroll toggle.
+    fix:
+      - Fix size filters not updating on search pages.
+    update:
+      - Make game title in search results clickable.
+      - Improve meta tags for game and grid pages
+...

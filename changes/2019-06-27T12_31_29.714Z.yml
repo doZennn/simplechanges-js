@@ -1,0 +1,15 @@
+---
+time: 2019-06-27T12:31:29.714Z
+changes:
+  - fix:
+      - Fix grids not displaying properly on mobile
+      - Fix style selector flashing when page is loading
+      - Fix latest grids showing when scrolling on search results
+      - Fix search value not being filled when visiting search page
+      - Fix filters not being applied when visiting search page
+    update:
+      - Lazy load grid images
+      - Replace random grid hero image background with static scrolling grids
+      - Update navigation to be more mobile friendly
+      - Update buttons on profile and game pages
+...

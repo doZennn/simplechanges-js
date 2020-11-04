@@ -1,0 +1,9 @@
+---
+time: 2020-01-21T07:25:27.187Z
+changes:
+  - fix:
+      - Fix collection list not showing on logo pages
+      - Fix Patron icon misaligning itself on Webkit browsers
+    update:
+      - Various changes to increase server performance.
+...

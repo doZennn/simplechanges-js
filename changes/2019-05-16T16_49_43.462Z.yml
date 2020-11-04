@@ -1,0 +1,6 @@
+---
+time: 2019-05-16T16:49:43.462Z
+changes:
+  - fix:
+      - Fix new Steam games not being added.
+...

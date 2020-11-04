@@ -1,0 +1,18 @@
+---
+time: 2020-05-05T08:50:48.667Z
+changes:
+  - name: Assets
+    summary: I've added the ability to choose a logo type on upload, I encourage you to change the style of your own logos (click the gear), or report any other uploads that are wrong. If you have a huge bulk of logos, let me know and I'll fix them for you.
+    new:
+      - Added logo types (Official, White, Black, and Custom).
+      - Add new Galaxy 2.0 size (660x930)
+  - name: Projects
+    new:
+      - Added filters for legacy sizes.
+    fix:
+      - >
+        Fixed most legacy grids not having sizes.  
+        
+        (Note to API users, the `legacy` option for the `dimensions` param is now removed.)
+      - Fix bad math on Wii U project percentage. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/705755427052453948)]
+...

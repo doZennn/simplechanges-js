@@ -1,0 +1,7 @@
+---
+time: 2019-09-01T11:07:27.657Z
+changes:
+  - update:
+      - Automatically select last chosen style when adding grids.
+      - Don't load chart by default.
+...

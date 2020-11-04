@@ -1,0 +1,12 @@
+---
+time: 2020-04-12T16:51:39.625Z
+changes:
+  - name: Assets
+    new:
+      - Add "Humor" tag for assets.
+    update:
+      - Show an indicator for assets marked Adult Content.
+      - Show chosen language on assets.
+    fix:
+      - Update legacy upload page cause people still use that apparently. [[1](https://discordapp.com/channels/488621078302949377/637329745201070111/698697298309415012)]
+...

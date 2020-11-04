@@ -1,0 +1,10 @@
+---
+time: 2020-04-01T07:20:36.093Z
+changes:
+  - new:
+      - Added ads (You won't see it if you're a Patron)
+    update:
+      - Minor style updates.
+    fix:
+      - Slightly improved performance when searching. (This is just a temporary fix for a larger problem, a search overhaul will come soon)
+...

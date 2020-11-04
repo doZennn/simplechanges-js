@@ -1,0 +1,15 @@
+---
+time: 2020-01-20T12:32:10.916Z
+changes:
+  - new:
+      - Better permalink pages
+      - Add support for animated logos
+      - New badge for $5+ patrons
+    update:
+      - Increase logo file size limit to 15MB
+      - Increase quality of animated hero thumbnails
+      - Show upload/creation dates without time. (Can see exact time on hover)
+      - Hide collection "+" button from logged out users
+    fix:
+      - Try to mitigate cropping on custom Patron backgrounds. (Still WIP)
+...

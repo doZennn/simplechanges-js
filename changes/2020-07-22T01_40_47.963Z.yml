@@ -1,0 +1,24 @@
+---
+time: 2020-07-22T01:40:47.963Z
+changes:
+  - name: Notification System
+    new:
+      - Added a new notifications page where you can see all of your notifications.
+      - Added a red dot to the bell icon if you have unread notifications.
+    update:
+      - Make loading additional notifications more stable on slower connections.
+      - Show a loading spinner when more notifications are loading.
+  - name: FAQ & Help Pages
+    summary: >
+      Added https://www.steamgriddb.com/help & https://www.steamgriddb.com/faq.  
+      
+      Thanks to the @Moderators for their help with this!
+
+  - name: Misc
+    fix:
+      - Fix broken asset count tooltip on profile pages. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/729320038489653298)]
+      - Fix ITAD showing -1 in some cases. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/727877736064090142)]
+      - Fix logos marked as Adult Content being embedded into game pages. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/726736841147154432)]
+    new:
+      - Add "Missing Any" filter to projects. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/730792682968055848)]
+...

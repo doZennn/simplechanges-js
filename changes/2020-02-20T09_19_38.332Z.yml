@@ -1,0 +1,50 @@
+---
+time: 2020-02-20T09:19:38.332Z
+changes:
+  - name: Projects Feature
+    summary: >
+      The projects feature that nobody asked for is now live starting with the Wii U Library project!  
+
+      https://www.steamgriddb.com/projects/wii-u  
+
+
+      Projects will be used as a way to have a concentrated effort to create assets with a specific goal in mind and track progress while doing it.  
+
+      These are considered to be long-term and aren't expected to be 100% complete at all. (But hey I won't stop you guys from trying anyway :wink:)
+
+
+      If you feel the itch to create assets but don't know what to work on, this would be a great start.
+
+      The Wii U was chosen as the first project for several reasons:  
+
+      1. There's no more games being released for it anymore so i don't have to assign or add more games from the eShop too often.  
+
+      2. The Wii U doesn't have as much shovelware as Steam so it should be relatively easy to find art to work with.  
+
+      3. The amount of games released for the Wii U is nothing compared to other platforms.
+
+
+      I spent around 2 weeks scraping the eShop and assigning each game to the proper game in the database.  
+
+      As a result, API users can easily query for assets via the eShop title key, product code, or the shop uid.
+
+
+      More projects will come depending on how this is received.
+  - name: Misc
+    new:
+      - Added a hover tooltip to the icons in the game selector.
+      - Added a search bar to nav. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/677029089298874378)]
+      - >
+        Add limited markdown to asset notes and collection descriptions. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/677919016752381968)]  
+
+        `bold, italics, ordered and unordered lists, inline and fenced code, auto links and links with labels`
+      - Show excerpt of asset notes when hovering over the icon. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/677787941283823626)]
+
+    update:
+      - Change label on search filters.
+      - Remove outline on close buttons on modals.
+      - Indent child items in hamburger menu.
+    fix:
+      - Fix hamburger menu not scrolling. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/678333499610234900)]
+      - Fixed file size calculations. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/679696126768840737)]
+...

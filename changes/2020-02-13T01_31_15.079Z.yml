@@ -1,0 +1,10 @@
+---
+time: 2020-02-13T01:31:15.079Z
+changes:
+  - new:
+      - Add ability set asset language.
+      - Add icon indicating if the asset has notes.
+    fix:
+      - Fix notes field sometimes showing old info when editing
+      - Don't show style selector when editing logos. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/674401930432217088)]
+...

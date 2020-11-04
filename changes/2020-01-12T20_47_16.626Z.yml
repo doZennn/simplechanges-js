@@ -1,0 +1,14 @@
+---
+time: 2020-01-12T20:47:16.626Z
+changes:
+  - new:
+      - Add ability to remove assets from collections (From the collection edit page) [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/665421477511954432)]
+      - Add toggle to switch homepage between carousel or the old view. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/665634863088402454)]
+    update:
+      - Clicking "Submit" on the nav now opens the Grid/Hero modal. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/665627743618334730)]
+      - Scroll more when navigating the carousel. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/665628124360212482)]
+      - Add button to make a new collection in "Add to Collection" modal. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/665536504340152333)]
+    fix:
+      - Fix carousel on 4k screens [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/665628246804529187)]
+      - Fix bug where heroes could not be uploaded if you previously uploaded a grid with a style that can't be used on Heroes. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/665528445303914506)]
+...

@@ -1,0 +1,14 @@
+---
+time: 2019-05-21T17:01:29.324Z
+changes:
+  - new:
+      - Added ways for admins to (easily) manually add games from Origin/EGS.
+      - Added all current EGS exclusive games to game database.
+    update:
+      - Show EGS info on game pages.
+      - Migrate games database from legacy system.
+      - Minor style changes.
+    fix:
+      - Manually fixed grids orphaned from a site change in 2015.
+      - Fixed multibyte characters not displaying.
+...

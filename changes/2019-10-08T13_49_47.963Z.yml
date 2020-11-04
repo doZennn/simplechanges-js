@@ -1,0 +1,6 @@
+---
+time: 2019-10-08T13:49:47.963Z
+changes:
+  - fix:
+      - Fix some APNG's and invalid PNG's not uploading properly.
+...

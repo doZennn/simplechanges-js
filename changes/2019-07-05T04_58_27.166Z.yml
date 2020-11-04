@@ -1,0 +1,13 @@
+---
+time: 2019-07-05T04:58:27.166Z
+changes:
+  - new:
+      - Add animations to modals
+      - Add ability to edit grids from profile page
+    fix:
+      - Fix grid "jumping" as grid loads on mobile
+    update:
+      - Redirect to previous page when logging in or out
+      - Make hero background appear more random
+      - Minor styling changes
+...

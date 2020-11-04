@@ -1,0 +1,11 @@
+---
+time: 2020-02-04T10:41:21.086Z
+changes:
+  - new:
+      - Add option to disable Adult Content filter in user preferences.
+    update:
+      - Don't show images marked as Adult Content on game page headers.
+    fix:
+      - Removed/fixed some invalid Steam data.
+      - Fix some browsers rendering the logo wrong.
+...

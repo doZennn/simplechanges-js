@@ -1,0 +1,18 @@
+---
+time: 2020-01-10T17:58:49.382Z
+changes:
+  - new:
+      - Added collections. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/609587623773601792)]
+      - Overhaul homepage.
+      - New example images thanks to Qui-Gon Jinnah.
+    update:
+      - Moved Logo upload form to modal.
+      - Add tabs to other search pages in results.
+      - Changed the edit dropdown to a gear icon. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/663639249123409921)]
+      - Allow adding logos via drag & drop. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/654742499201646592)]
+    fix:
+      - Fix getting logged out for no reason. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/662018850442706944)]
+      - Fix permalink pages for logos
+    remove:
+      - Removed the permalink button (can click the thumbnail to get there instead)
+...

@@ -1,0 +1,9 @@
+---
+time: 2020-02-21T09:32:19.564Z
+changes:
+  - new:
+      - Put projects in a dropdown menu.
+    fix:
+      - Remove mysterious 1px line showing below mobile nav bar.
+      - Fix calculating length of notes on Chromium browsers.
+...

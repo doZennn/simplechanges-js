@@ -1,0 +1,10 @@
+---
+time: 2020-10-13T10:28:00.115Z
+changes:
+  - name: Search Beta
+    new:
+      - Add search to the home (current implementation will most likely change)
+  - name: Wii U project
+    update:
+      - Count assets from Steam as "completed".
+...

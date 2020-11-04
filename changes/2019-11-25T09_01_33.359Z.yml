@@ -1,0 +1,12 @@
+---
+time: 2019-11-25T09:01:33.359Z
+changes:
+  - new:
+      - Add library preview for Heroes when hovering the thumbnail.
+    fix:
+      - Fix heroes "jumping" while thumbnail is loading.
+      - Fix last selected style using "alternate" no matter what was chosen on upload.
+      - Fix filtering grid results by type.
+      - Fix long game titles breaking layout.
+      - Fix metadata for Hero permalinks.
+...

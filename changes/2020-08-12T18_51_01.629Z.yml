@@ -1,0 +1,44 @@
+---
+time: 2020-08-12T18:51:01.629Z
+changes:
+  - name: Badges
+    new:
+      - >-
+        You can now change the order of your badges or hide badges from showing
+        up from the user preferences page.
+        https://www.steamgriddb.com/profile/preferences
+      - Add a Moderator badge.
+    update:
+      - Show badge award date on profiles.
+  - name: Wii U Project
+    summary: >-
+      By popular demand, changes have been made to the Wii U project to make it
+      more doable.
+    update:
+      - Changed tracking to only check for the "Alternate" style.
+    new:
+      - Added eShop banners and icons to each game in case you need a reference.
+      - Added more "Missing" filters.
+  - name: Tetris Project
+    summary: >
+      The Tetris Project was briefly opened up again after more official games
+      were found.
+
+      As of today is has been completed again and I've awarded the new
+      contributors the Tetris Artificer badge, enjoy!
+  - name: Misc
+    update:
+      - Sort collections on profiles by recently updated first.
+      - Make asset counts on profiles trigger when hovered on asset names.
+      - Use a muted color on Asset IDs that are deleted on report pages.
+    new:
+      - Add style counts for logos to profiles.
+    fix:
+      - Fixed up/down arrow keys not working on most pages.
+      - 'Fixed "Best Used With [...]" text showing up on the wrong pages.'
+      - Fixed project percentages.
+      - Attempt to fix Patreon webhooks.
+      - >-
+        Scroll to correct page position when navigating resolved/unresolved
+        pages.
+...

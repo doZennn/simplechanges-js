@@ -1,0 +1,21 @@
+---
+time: 2020-08-18T03:19:44.007Z
+changes:
+  - name: Wii U Project
+    new:
+      - >-
+        Add instructions to the Wii U Project on how to work around broken
+        Nintendo images.
+  - name: Misc
+    fix:
+      - Parse markdown on report comments.
+      - Fixed bugs with the Patreon API (again).
+      - Fixed typo on help page.
+      - >-
+        Fixed assets added to collections not being added to the beginning in
+        some cases.
+    remove:
+      - >-
+        Temporarily removed Google AdSense until a problem we're having with
+        them is fixed.
+...

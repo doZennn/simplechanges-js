@@ -1,0 +1,11 @@
+---
+time: 2020-04-14T02:41:49.360Z
+changes:
+  - fix:
+      - Fix game name cutting off on capsules with tags or notes. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/699022670771126342)]
+      - Fix user dropdown cutting off if you have a short name. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/699037117761716274)]
+      - Fix grammar on game pages ("on {store name}" instead of "at {store name}").
+    remove:
+      - Remove carousel.
+      - Remove annoying notice.
+...

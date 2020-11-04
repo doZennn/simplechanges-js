@@ -1,0 +1,12 @@
+---
+time: 2020-04-05T08:55:51.902Z
+changes:
+  - new:
+      - Allow supporters to opt-out of hiding ads. You can find this option in the preferences page. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/695132681381478481)]
+    update:
+      - Spruced up the Supporters page. 
+      - Overhaul search backend. Only on the upload/edit pages (`/api/v2/search/autocomplete` endpoint), main search coming after more tests. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/693918257136140368) [2](https://discordapp.com/channels/488621078302949377/552548093703487510/695812689741611128) [3](https://discordapp.com/channels/488621078302949377/533198732163022858/665634950057426964) [4](https://discordapp.com/channels/488621078302949377/552548093703487510/656743808217907220) [5](https://discordapp.com/channels/488621078302949377/552548093703487510/680274290913968140)]
+    fix:
+      - Fix ads not showing up (probably).
+      - Fix some pages not loading JavaScript [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/69497292808886691)]
+...

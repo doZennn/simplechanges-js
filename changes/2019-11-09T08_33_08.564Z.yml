@@ -1,0 +1,17 @@
+---
+time: 2019-11-09T08:33:08.564Z
+changes:
+  - name: bug fixesssssss
+    new:
+      - Add a search bar to the index
+      - Add link to game request form.
+    fix:
+      - Fix registrations.
+      - Fix infinite scrolling for logged out users.
+      - Fix filters resetting when browsing latest images.
+    update:
+      - Change processing text.
+      - Hide download button if image still processing.
+      - Make upload modal more mobile friendly
+      - Optimizations to image processors
+...

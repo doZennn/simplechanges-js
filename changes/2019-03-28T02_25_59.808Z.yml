@@ -1,0 +1,11 @@
+---
+time: 2019-03-28T02:25:59.808Z
+changes:
+  - new:
+      - Added tagging system.
+    update:
+      - Updated Upload page.
+      - Show message when no search results.
+      - Make profile pages redirect to Public SteamID64 pages when visiting from other SteamID64 universes or Steam2/3 IDs.
+      - Security improvements. 
+...

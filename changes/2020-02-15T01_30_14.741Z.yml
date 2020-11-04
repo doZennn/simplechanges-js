@@ -1,0 +1,6 @@
+---
+time: 2020-02-15T01:30:14.741Z
+changes:
+  - fix:
+      - Fix edits on heroes and logos not saving. If you edited a hero or logo after the 13th, it most likely didn't save.
+...

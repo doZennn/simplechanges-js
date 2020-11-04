@@ -1,0 +1,11 @@
+---
+time: 2019-03-09T20:27:26.304Z
+changes:
+  - new:
+      - Added a "Manage Grids" toggle to profile pages to manage your own grids.
+    update:
+      - User profiles now show a message if there are no grids.
+      - CSS cleanup.
+    fix:
+      - Only show paging and "Grids by [name]" if the user uploaded grids.
+...

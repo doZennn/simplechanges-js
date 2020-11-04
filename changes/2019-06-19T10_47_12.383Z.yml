@@ -1,0 +1,10 @@
+---
+time: 2019-06-19T10:47:12.383Z
+changes:
+  - new:
+      - Add link to `node-steamgriddb` in API docs
+    fix:
+      - Minor API fixes
+    update:
+      - Force WWW
+...

@@ -1,0 +1,7 @@
+---
+time: 2020-04-09T18:53:39.917Z
+changes:
+  - name: Game Pages
+    new:
+      - Add IsThereAnyDeal prices to game pages.
+...

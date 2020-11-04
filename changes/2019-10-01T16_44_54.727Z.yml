@@ -1,0 +1,15 @@
+---
+time: 2019-10-01T16:44:54.727Z
+changes:
+  - new:
+      - "APNG :champagne: :confetti_ball:"
+      - Allow editing your own grids from any page.
+      - Show grid dimensions on grid element.
+    update:
+      - Raised file size limit to 75MB 
+      - If an upload is in progress, ask before closing tab.
+      - Improve search results.
+      - Move score above voting arrows.
+    fix:
+      - Fix 404s on grid pages
+...

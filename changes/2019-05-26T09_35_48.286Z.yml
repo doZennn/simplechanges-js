@@ -1,0 +1,8 @@
+---
+time: 2019-05-26T09:35:48.286Z
+changes:
+  - new:
+      - Add Origin store button.
+    fix:
+      - Fix broken link to game pages in search results.
+...

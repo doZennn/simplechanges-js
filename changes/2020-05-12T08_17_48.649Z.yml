@@ -1,0 +1,15 @@
+---
+time: 2020-05-12T08:17:48.649Z
+changes:
+  - name: Roadmap
+    summary: I've set up a Trello board so you can see what I'm currently working on and what is planned. https://trello.com/b/bhrqOQGX/steamgriddb-roadmap
+  - name: A New Project
+    summary: >
+      Introducing **The Tetris Project**, a project whose goal is to make assets for every single Tetris game out there (and some not out there).  
+      https://www.steamgriddb.com/projects/tetris
+  - name: Account deletion
+    summary: >
+      You can now delete your account and all data related to it from the preferences page.  
+
+      Deletion is **permanent** and cannot be undone. *it'll be like you never existed*
+...

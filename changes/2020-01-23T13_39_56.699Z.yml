@@ -1,0 +1,9 @@
+---
+time: 2020-01-23T13:39:56.699Z
+changes:
+  - new:
+      - Serve images from a faster CDN.
+    update:
+      - Generate higher quality thumbnails for APNGs
+      - Improved search results for search terms that include spaces.
+...

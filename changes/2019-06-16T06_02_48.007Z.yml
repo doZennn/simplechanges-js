@@ -1,0 +1,9 @@
+---
+time: 2019-06-16T06:02:48.007Z
+changes:
+  - fix:
+      - >
+        Fix "See all # grids" showing up when it shouldn't.
+    update:
+      - You can link to and use the back/forward buttons on search pages now.
+...

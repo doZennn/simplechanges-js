@@ -1,0 +1,6 @@
+---
+time: 2020-04-12T16:51:39.625Z
+changes:
+  - fix:
+      - Fix the new icons not showing up for some people.
+...

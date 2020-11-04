@@ -1,0 +1,8 @@
+---
+time: 2019-09-18T05:16:24.764Z
+changes:
+  - new:
+      - You can now upload the new grid format!
+    update:
+      - Increased image file size limit from 1MB to 1.5MB.
+...

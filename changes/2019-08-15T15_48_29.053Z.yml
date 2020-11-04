@@ -1,0 +1,12 @@
+---
+time: 2019-08-15T15:48:29.053Z
+changes:
+  - new:
+      - Add link to SteamGridDB Manager (https://www.steamgriddb.com/manager)
+      - Add ability to change username in preferences 
+      - Add Terms and Privacy pages
+      - Add an annoying cookie notification
+      - Add a footer
+    update:
+      - Style changes
+...

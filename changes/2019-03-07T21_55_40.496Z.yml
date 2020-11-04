@@ -1,0 +1,8 @@
+---
+time: 2019-03-07T21:55:40.496Z
+changes:
+  - new:
+      - Added paging to profiles.
+      - Added basic info to games that are on Steam.
+      - Added a link to Steam, a profile pic, and some stats to profile pages.
+...

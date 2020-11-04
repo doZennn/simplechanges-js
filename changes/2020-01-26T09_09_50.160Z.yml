@@ -1,0 +1,12 @@
+---
+time: 2020-01-26T09:09:50.160Z
+changes:
+  - new:
+      - Add ability to filter animated heroes and logos.
+      - Add proper OpenGraph tags for animated permalink pages.
+    update:
+      - Don't use heroes marked as Adult Content or animated on the homepage.
+    fix:
+      - Fix Steam preview overlay on animated heroes (FF/Gecko).
+      - Fix inaccurate upload description for logos.
+...

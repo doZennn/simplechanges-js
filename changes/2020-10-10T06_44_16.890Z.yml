@@ -1,0 +1,18 @@
+---
+time: 2020-10-10T06:44:16.890Z
+changes:
+  - name: Search Beta
+    new:
+      - Add pagination links to the bottom of results.
+    update:
+      - Ensure at least static or animated is checked.
+      - Hide languages not used in results.
+      - Replace spinner with a fade effect.
+    fix:
+      - Fix deletions and votes/scores not syncing.
+      - Fix dropdown filters not working at all for some users.
+      - >-
+        Detect and save page state. (back/forward buttons work now and you won't
+        lose the page you were on when refreshing)
+      - Fix memory leak in the search backend.
+...

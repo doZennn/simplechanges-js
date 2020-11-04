@@ -1,0 +1,13 @@
+---
+time: 2020-08-23T06:13:07.298Z
+changes:
+  - name: Help pages
+    new:
+      - Allow linking to specific help items.
+      - Add links to help sections in the upload forms.
+    fix:
+      - Mobile fixes to Help/FAQ pages.
+  - name: API
+    fix:
+      - Fix API returning invalid assets if querying by game ID.
+...

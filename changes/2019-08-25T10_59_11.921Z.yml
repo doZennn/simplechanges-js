@@ -1,0 +1,8 @@
+---
+time: 2019-08-25T10:59:11.921Z
+changes:
+  - new:
+      - Add new style "White Logo"
+    update:
+      - Adjust sorting of grids. (Newer grids will always show before older ones.)
+...

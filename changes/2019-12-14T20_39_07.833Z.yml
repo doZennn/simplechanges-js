@@ -1,0 +1,22 @@
+---
+time: 2019-12-14T20:39:07.833Z
+changes:
+  - name: SteamGridDB now has a Patreon!
+    summary: >
+      The site has become a bit more expensive to run with influx of new users, pledging to the Patreon will help us cover some of the costs.  
+
+      I've added some cosmetic Patron-only features to the site and the Discord.  
+      
+      https://www.patreon.com/steamgriddb
+  - name: Misc
+    new:
+      - Add style examples to upload form.
+      - Add Patreon stuff.
+    update:
+      - Clean up home/profile/grid pages for higher resolutions. [[1](https://discordapp.com/channels/488621078302949377/533198732163022858/650768289386987540)]
+      - Show uploaded logos on user profiles. [[1](https://discordapp.com/channels/488621078302949377/552548116700594176/654746282014801921)]
+    fix:
+      - Fix filtering by types on grid search page.
+      - Don't show Hero preview for Galaxy 2.0 backgrounds. [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/653792494110113832)]
+      - Various minor bug fixes and improvements.
+...

@@ -1,0 +1,11 @@
+---
+time: 2020-04-21T07:59:15.737Z
+changes:
+  - fix:
+      - Fix pluralization on vote hover text.
+      - Update stars after casting a vote.
+      - Fix ads opt-in not working (Check your preferences page if you're a Patron).
+    update:
+      - Migrate score sorting system to sort by highest upvote % first.
+      - Start logging more info when a vote is cast.
+...

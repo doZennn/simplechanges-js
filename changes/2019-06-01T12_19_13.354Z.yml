@@ -1,0 +1,22 @@
+---
+time: 2019-06-01T12:19:13.354Z
+changes:
+  - new:
+      - Add APIv2
+      - Add more admin tools
+      - Add ability to request games
+      - Add Discord button
+      - Add nicer 404 page
+    update:
+      - Rewrite more of old code
+      - Show most upvoted grids first
+      - Make most pages more mobile friendly
+      - Better error handling on Upload page
+      - Replace icon font with svg spritesheet for less bloat
+      - Change some icons
+    fix:
+      - Optimize endless scrolling on homepage
+    remove:
+      - Remove FAQ page
+      - Remove "under heavy development" text
+...

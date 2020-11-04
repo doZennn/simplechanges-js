@@ -1,0 +1,12 @@
+---
+time: 2019-09-23T09:58:17.111Z
+changes:
+  - new:
+      - Added Galaxy 2.0 size
+      - Added ability to filter the various sizes
+      - Add ability to permalink grids
+    update:
+      - Increase grid size cap to 6MB
+      - Updated game search to return better results
+      - Backend performance improvements
+...

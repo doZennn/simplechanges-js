@@ -1,0 +1,6 @@
+---
+time: 2019-12-22T15:14:37.680Z
+changes:
+  - fix:
+      - Fix hero thumbnails not loading on WebKit browsers
+...

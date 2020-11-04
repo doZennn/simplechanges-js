@@ -1,0 +1,34 @@
+---
+time: 2020-07-31T18:07:48.618Z
+changes:
+  - name: Tetris Project
+    summary: >
+      The project to complete assets for every official Tetris game (and some
+      bootlegs and fan games) has been completed! Everyone who contributed to
+      the project has been awarded the Tetris Artificer badge. Check your
+      profiles! :TetrisArtificer: 
+  - name: Misc
+    update:
+      - Rewrote/refactored most of the site backend.
+    fix:
+      - >-
+        Added GOG/Steam icons to asset pages.
+        [[1](https://discordapp.com/channels/488621078302949377/552548093703487510/738163108987797604)]
+      - >-
+        A bunch of other small things I can't remember while I was rewriting
+        everything.
+    new:
+      - Added eShop banners and icons to each game in case you need a reference.
+      - Added more "Missing" filters.
+  - name: API
+    new:
+      - >-
+        You can now filter by `humor` and `nsfw`. These are filtered out by
+        default to keep backwards compatibility. You have to enable these
+        specifically if you want them included in the output.
+    remove:
+      - >-
+        The legacy v1 endpoints are now disabled. According to the logs these
+        haven't been accessed in a while, and I didn't want to maintain them
+        anymore.
+...
