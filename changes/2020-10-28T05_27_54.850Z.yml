@@ -1,0 +1,32 @@
+---
+time: 2020-10-28T05:27:54.850Z
+changes:
+  - name: Search Beta
+    new:
+      - Now available for public testing! (Public-ish, you need to be logged in.)
+      - Add new search to profile pages.
+    update:
+      - Make filters more mobile friendly by making it collapsible and use the native mobile selector.
+      - Write to url when using filters and paging on browse pages. (/grids, /logos, /heroes)
+      - Show a spinner on initial load.
+    fix:
+      - Fix paging heroes and logos on game pages.
+      - More memory optimizations.
+
+  - name: GoldSrc Project
+    new:
+      - Add logos to GoldSrc project showcase thingy.
+    update:
+      - Make game backgrounds responsive.
+    fix:
+      - Fix GoldSrc project filters.
+      - Fix GoldSrc project template links.
+
+  - name: Misc
+    update:
+      - Improve game title matching on autocomplete API endpoint.
+      - Rename "Help" to "Rules".
+    remove:
+      - Remove ability to upload via drag and drop.
+      - Remove link to manager page from nav and add a note to the page. (Don't worry, it'll come back!)
+...

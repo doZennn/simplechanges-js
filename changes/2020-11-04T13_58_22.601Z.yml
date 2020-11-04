@@ -1,0 +1,17 @@
+---
+time: 2020-11-04T13:58:22.601Z
+changes:
+  - name: Search Beta
+    new:
+      - Logged out users can now opt-in for testing!
+    update:
+      - Use `OR` instead of `AND` filtering for tags. [[1](https://discord.com/channels/488621078302949377/763074625596424192/772332554275520553)]
+      - Minor style changes.
+  - name: Misc
+    new:
+      - Added this changelog.
+    update:
+      - Update [/projects](https://www.steamgriddb.com/projects) page to use new projects view.
+    remove:
+      - Remove inaccurate project description text.
+...
