@@ -94,10 +94,30 @@ header h1 {
   border-color: #fff;
 }
 
-.date {
+.panel-left {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.buttons {
+  margin-top: .5em;
+  opacity: 0;
+  transition: opacity 120ms ease-out;
+}
+
+.log:not(.collapsed):hover .buttons {
+  opacity: 1;
+}
+
+.buttons button {
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.buttons button:hover {
+  color: #5fb4f0;
 }
 
 .day {
@@ -127,6 +147,7 @@ header h1 {
   padding-top: 1em;
   margin-left: 1em;
   margin-top: 3em;
+  word-break: break-word;
 }
 
 .list:after,
@@ -187,6 +208,14 @@ ul.change-item > li {
 
 .list h2:first-of-type {
   margin-top: 0;
+}
+
+.list textarea {
+  display: block;
+  resize: none;
+  width: 300px;
+  height: 150px;
+  outline: none;
 }
 
 .new {
