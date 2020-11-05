@@ -9,7 +9,7 @@ export default function ChangeItem({ change, defaultCollapsed }) {
   const handleClick = () => {
     // eslint-disable-next-line no-restricted-globals
     history.replaceState(null, null, `#${change.time}`);
-    setCollapsed(!collapsed);
+    setCollapsed(false);
   };
 
   return (
