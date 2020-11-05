@@ -26,9 +26,7 @@ export default function ChangeItem({ change, defaultCollapsed }) {
         <div className="month">{date.format('MMM')}</div>
         <div className="year">{date.format('YYYY')}</div>
       </div>
-      <div className="list">
-        {change.changes.map((list, i) => <ChangeList key={i} list={list} />)}
-      </div>
+      <ChangeList changes={change.changes} />
     </section>
   );
 }
