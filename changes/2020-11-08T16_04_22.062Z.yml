@@ -3,9 +3,10 @@ time: 2020-11-08T16:04:22.062Z
 changes:
   - name: Search Beta
     update:
-      - Remove ability to sort assets by score globally.
       - Minor style changes. Mostly to make things more compact on mobile.
       - Show less pagination buttons.
+    remove:
+      - Remove ability to sort assets by score globally.
   - name: Misc
     new:
       - >
