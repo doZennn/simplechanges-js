@@ -1,0 +1,20 @@
+---
+time: 2020-11-08T16:04:22.062Z
+changes:
+  - name: Search Beta
+    update:
+      - Remove ability to sort assets by score globally.
+      - Minor style changes. Mostly to make things more compact on mobile.
+      - Show less pagination buttons.
+  - name: Misc
+    new:
+      - >
+          Open sourced this changelog generator: https://github.com/doZennn/simplechanges-js  
+          
+          Currently very specific to SGDB which will change once I start using it with more projects.
+
+    fix:
+      - Fix requests failing to be submitted if certain characters are in the description.
+    update:
+      - Added more mods to goldsrc project.
+...
