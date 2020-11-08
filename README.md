@@ -1,6 +1,6 @@
 # simplechanges-js
 
-A WIP static changelog site generator. See it in action on [SteamGridDB](https://changelog.steamgriddb.com/).
+A WIP static changelog site generator. See it in action on [SteamGridDB's Changelog](https://changelog.steamgriddb.com/).
 
 ## TODO
 
