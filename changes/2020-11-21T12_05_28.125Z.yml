@@ -1,0 +1,19 @@
+---
+time: 2020-11-21T12:05:28.125Z
+changes:
+  - name: Search Beta
+    summary: The asset filtering part of the search is now out of beta, but changes to the main search is still in the works.
+    update:
+      - Use new asset filtering by default.
+    remove:
+      - Remove old asset filtering system.
+  - name: Epilepsy Tag
+    new:
+      - Add ability to mark your assets with an epilepsy warning. [[1](https://discord.com/channels/488621078302949377/552548116700594176/777192502460547083)]
+  - name: Misc
+    new:
+      - Allow drag and drop when only when upload modals are open. [[1](https://discord.com/channels/488621078302949377/552548116700594176/777183166988812378)]
+    fix:
+      - Allow reporting an asset multiple times for the same reason.
+      - Fix invalid heroes showing on homepage hero.
+...
