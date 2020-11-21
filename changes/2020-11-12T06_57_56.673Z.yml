@@ -1,0 +1,7 @@
+---
+time: 2020-11-12T06:57:56.673Z
+changes:
+  - name: Search Beta
+    new:
+      - Added ability to filter by game on user profiles. [[1](https://discord.com/channels/488621078302949377/552548116700594176/615939141904891926) [2](https://discord.com/channels/488621078302949377/552548116700594176/658698850231517188) [3](https://discord.com/channels/488621078302949377/763074625596424192/775653274828144640)]
+...
