@@ -1,0 +1,19 @@
+---
+time: 2020-12-14T04:30:05.029Z
+changes:
+  - name: Search Beta
+    fix:
+      - Fix animated WebPs not working with filters. [[1](https://discord.com/channels/488621078302949377/552548093703487510/786327042052456478)]
+    new:
+      - Add ability to filter by epilepsy tag. [[1](https://discord.com/channels/488621078302949377/552548116700594176/783937781717532684)]
+  - name: Misc
+    new:
+      - Add "Download as .png" button to hero and logo pages. [[1](https://discord.com/channels/488621078302949377/552548093703487510/786582210802745374)]
+    update:
+      - Don't autoplay animated assets tagged with epilepsy or nsfw. [[1](https://discord.com/channels/488621078302949377/552548116700594176/783937162580197406)]
+      - Only allow epilepsy tag on animated assets. [[1](https://discord.com/channels/488621078302949377/552548116700594176/783936993784496149)]
+      - Use thumbnail for game backgrounds. [[1](https://discord.com/channels/488621078302949377/552548093703487510/784897182700142634)]
+    fix:
+      - Fix broken logo filter routes. [[1](https://discord.com/channels/488621078302949377/552548093703487510/787523371659296808)]
+      - Minor style fixes.
+...
