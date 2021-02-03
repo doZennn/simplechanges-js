@@ -1,0 +1,35 @@
+---
+time: 2021-02-03T11:01:01.657Z
+changes:
+  - name: Assets
+    new:
+      - Begin public testing for new asset view (see Discord).
+    update:
+      - Slightly faster asset processing.
+      - Show more detailed errors on why an upload failed.
+      - Preliminary preparations for icon and 1:1 grid support.
+    fix:
+      - Fix certain types of heroes failing to process.
+      - Fix logos showing incorrect image dimensions.
+      - Improve detection of assets that have an alpha layer but is fully opaque. (processor)
+  - name: FAQ
+    new:
+      - Add ["Why are animated assets only in WebP?"](https://www.steamgriddb.com/faq#webp)
+      - Add ["How do I get around Steam from reloading itself when I try to add an asset"](https://www.steamgriddb.com/faq#large-steam-asset)
+    fix:
+      - Fix typos.
+  - name: Misc
+    new:
+      - Add ability to edit game requests.
+      - More tools for the mods.
+    fix:
+      - Fix typo on apng page.
+    update:
+      - Minor style changes everywhere.
+    remove:
+      - Remove link to 2020 year in review thing on top.
+  - name: API
+    update:
+      - Upgrade Redoc.
+      - Improve search results for exact game matches.
+...
