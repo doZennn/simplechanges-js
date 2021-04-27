@@ -1,0 +1,39 @@
+---
+time: 2021-04-27T04:01:00.918Z
+changes:
+  - name: Square Grid Support
+    summary: | 
+      Here it is! Square grids!!!!! 🎉🎉  
+      I don't think i need to write anything else.  
+
+      ~*if you're wondering what that sound is, it's probably the Playnite horde rapidly approaching*~
+
+  - name: Icon Asset Type
+    summary: |
+      Support has been added with support for ICO files and PNGs.  
+      Not to be confused with square grids. Please [read this](https://www.steamgriddb.com/faq#square-grid-or-icon) to get an idea on the difference.
+
+  - name: Main Site Search
+    summary: Now out of beta! The new search allows for much more freedom when searching for games. See below for some of the changes compared to the previous site search.
+    new:
+      - Added autocomplete to search bar. [[1](https://discord.com/channels/488621078302949377/552548116700594176/589146282250076180) [2](https://discord.com/channels/488621078302949377/552548116700594176/768966786539716649)]
+      - Added ability to filter by specific asset dimensions. [[1](https://discord.com/channels/488621078302949377/552548116700594176/642935455234523167)]
+      - Added ability to filter by file type.
+      - Added ability to filter by language. [[1](https://discord.com/channels/488621078302949377/552548116700594176/682421399184605194)]
+      - Add ability to filter asset tags. (Humor, Adult Content, Epilepsy) [[1](https://discord.com/channels/488621078302949377/552548116700594176/726764927565561976)]
+    update:
+      - Improve accuracy of search results. [[1](https://discord.com/channels/488621078302949377/552548116700594176/624046681125683202) [2](https://discord.com/channels/488621078302949377/552548093703487510/669317288737898536) [3](https://discord.com/channels/488621078302949377/552548116700594176/626048898787442719) [4](https://discord.com/channels/488621078302949377/552548093703487510/695754679359111238) [5](https://discord.com/channels/488621078302949377/552548093703487510/776648590205648936) [6](https://discord.com/channels/488621078302949377/533198732163022858/643658296800182303)]
+      - Keep loading results after reaching the end. [[1](https://discord.com/channels/488621078302949377/533198732163022858/665634950057426964) [2](https://discord.com/channels/488621078302949377/552548093703487510/776648590205648936)]
+
+  - name: Assets
+    summary: The new asset view is complete and is now live on all pages. Thanks to everyone who helped test and provide feedback during development!
+  - name: Front-end/UX refresh.
+    summary: The entire site front-end (and lots of the backend) was rewritten from scratch. You might won't see much of a difference since it was designed to look mostly the same. There are a bunch of small changes everywhere but it would be cumbersome to list them all here.
+  - name: API
+    new:
+      - Added ability to filter by `mime`.
+      - Added icons.
+    update:
+      - Asset responses now return `mime` types, `width`, `height`.
+      - Added square grid dimensions.
+...
