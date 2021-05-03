@@ -1,0 +1,33 @@
+---
+time: 2021-05-03T10:48:53.271Z
+changes:
+  - name: Icons
+    fix:
+      - Fix some icons generating blank or broken thumbnails.
+      - Fix generating thumbnails for icons that have a single 256x256 bmp entry.
+      - Favor largest icon over bit depth for icon thumbnails.
+      - Stop corrupted icons from passing validation.
+  - name: Upload Form
+    new:
+      - Use a tabbed interface for the different types of assets.
+      - Link to uploaded asset after successful upload.
+      - Add drag and drop back (again).
+      - Allow pasting an image directly into the upload form.
+    update:
+      - Put newly added images below the existing ones.
+    fix:
+      - Fix icon validation not allowing you to add ico files when using OSX.
+      - Fix bug where pressing the "X" would clear other items.
+  - name: Misc
+    fix:
+      - Fix game pages not showing icon counts.
+      - Fix modals causing horizontal scrolling on mobile.
+    update:
+      - Make asset counts on the homepage clickable.
+      - Show square grids and icons on the right in detailed view.
+      - Auto focus search input when opening the nav bar search.
+      - Minor style changes everywhere.
+    new:
+      - Show file type in detailed view and asset pages.
+      - Add language to asset pages.
+...
