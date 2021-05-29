@@ -1,0 +1,52 @@
+---
+time: 2021-05-29T04:49:04.323Z
+changes:
+  - name: Logos
+    fix:
+      - Fix logos with ⪆60,000 pixels failing to process.
+    update:
+      - Speed up processing.
+      - Improve thumbnail file sizes.
+  - name: Icons
+    fix:
+      - Fixed some ICO files extracting incorrectly.
+    update:
+      - Allow more ICO entry sizes.
+
+  - name: Rules
+    update:
+      - |
+        Moved the second half of [Tagging Assets #1e](https://www.steamgriddb.com/help#tagging-assets-1e) (Previously: "Extreme realistic gore, including photos of any extreme injury to real people.") to a new entry: [Asset Removal #8](https://www.steamgriddb.com/help#asset-removal-8).
+    new:
+      - |
+        [Asset Removal #8](https://www.steamgriddb.com/help#asset-removal-8)
+
+  - name: FAQ
+    new:
+      - |
+        [\"What launcher uses square grids?\"](https://www.steamgriddb.com/faq#square-grid-usage)
+
+  - name: Search (Floating Bar)
+    update:
+      - Clear field after a search.
+    fix:
+      - Fix new searches not working when already on results page.
+    new:
+      - Don't switch to grid results when browsing a different asset type.
+
+  - name: Misc
+    new:
+      - |
+        Added `/steam/APPID` to redirect to a game page via Steam App ID.  
+        Example: <https://www.steamgriddb.com/steam/620> → <https://www.steamgriddb.com/game/17830>
+      - Show default Steam client icons in "Original Steam Assets" popup.
+    fix:
+      - Fixed some tier 1 patrons having access to tier 2 profile customization in rare cases.
+    update:
+      - Port project pages from old view.
+      - |
+        Change Steam CDN path.  
+        `steamcdn-a.akamaihd.net` → `cdn.cloudflare.steamstatic.com`.
+      - Update Discord branding.
+      - Minor style changes.
+...
