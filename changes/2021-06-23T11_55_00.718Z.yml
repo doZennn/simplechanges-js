@@ -1,0 +1,38 @@
+---
+time: 2021-06-23T11:55:00.718Z
+changes:
+  - name: Tests and stuff.
+    summary: >
+      In the next few weeks, we're going to be running some experimental tests and changes with how assets are discovered, sorted, and interacted with.  
+      
+      Some of these tests will be obvious, some subtle, and some changes will be in the background and you probably won't notice anything.  
+      
+      Everything introduced will be iterated upon or scrapped depending on the results. Not every change will be announced as they happen. Please bear with us.
+  - name: Global Filters
+    summary: >
+      The following filters are currently available:
+        - Adult Content
+        - Epilepsy
+        - Humor
+        - Asset Styles
+        - Users
+      Some filters are only available to logged in users due to technical limitations. There will be more filters added in the future.  
+
+      You can get to the filter settings by clicking "Global Filter Preferences" within search results. (Or you can just click [here](https://www.steamgriddb.com/filters))  
+  - name: Assets
+    new:
+      - ❤
+      - You can now see an approximation how many views an asset has within the asset page.
+    update:
+      - Improve icon upload preview.
+      - Allow icons with 194x194 entries.
+      - Hide votes.
+
+  - name: Misc
+    fix:
+      - Prevent modals from closing when releasing from a drag.
+      - Fix search typeahead breaking when a search term is too long.
+      - Fix previous game metadata showing when navigating between game pages.
+    update:
+      - Bunch of various style fixes and changes.
+...
