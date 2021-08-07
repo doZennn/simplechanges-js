@@ -4,7 +4,7 @@ changes:
   - name: Voting and scoring update.
     summary: >
       The tests mentioned in the previous update are still underway. One of the more obvious changes is the introduction of a new sorting option. (Selected by default, the old one can still be manually selected.)  
-      
+
       We'll continue to keep a close eye on everything and make adjustments accordingly. The process of designing a system that everyone is happy with is long and complex, so please bear with us. Votes will remain hidden until everything is finalized.
   - name: Global Filters
     new:
@@ -31,13 +31,13 @@ changes:
     update:
       - You can now see assets that you've liked from your profile.
       - Open list of users when clicking the number of likes beside the ♥.
-      - Don't generate Open Graph thumbnail for assets marked as adult content. [[1](https://discord.com/channels/488621078302949377/552548093703487510/858171617698775051)
+      - Don't generate Open Graph thumbnail for assets marked as adult content. [[1](https://discord.com/channels/488621078302949377/552548093703487510/858171617698775051)]
 
   - name: Misc
     new:
       - Added a "Low Performance" mode. You can find this option in the preferences page. [[1](https://discord.com/channels/488621078302949377/552548093703487510/680634383018754089) [2](https://discord.com/channels/488621078302949377/552548093703487510/868156102171295804)]
     fix:
-      - Fix GoldSrc project counting horizontal grids as vertical grids. [[1](https://discord.com/channels/488621078302949377/552548093703487510/858328249461243919)
+      - Fix GoldSrc project counting horizontal grids as vertical grids. [[1](https://discord.com/channels/488621078302949377/552548093703487510/858328249461243919)]
     update:
       - General style/bug fixes and housekeeping.
 ...
