@@ -1,0 +1,27 @@
+---
+time: 2021-08-21T05:14:29.000Z
+changes:
+  - name: The Flash Project
+    summary: >
+      Our latest project is up and ready to go! **The Flash Project** is another long-term project to create library assets for some of the most popular games created in Adobe Flash.
+
+
+      https://www.steamgriddb.com/projects/flash  
+
+      ![The Flash Project](https://www.steamgriddb.com/static/img/flash/og.png)
+
+      For API users, we have a new external platform "`flashpoint`" that you can use to query assets via their game UUID.  
+      
+      Note that not all games in Flashpoint will exist in our database since we have to add/associate them manually. Anything currently in the project and any more we add are ready to use though!
+  - name: Misc
+    update:
+      - More changes to the scoring system.  
+        It actually got updated twice since the last announcement, just didn't want a changelog with a single line.
+    fix:
+      - Fix Steam games not being reindexed after name is changed. [[1](https://discord.com/channels/488621078302949377/552548093703487510/870720491076345918) [2](https://discord.com/channels/488621078302949377/533198732163022858/876579216446066788)]
+      - Fix some some Steam games importing with an escaped quotation mark. [[1](https://discord.com/channels/488621078302949377/552548093703487510/876905193449599017)]
+      - Fix Wii U "Missing Grid (Horizontal)" filter not working. [[1](https://discord.com/channels/488621078302949377/552548093703487510/875941595638276106)]
+      - Fix Wii U project counting square grids as vertical. [[1](https://discord.com/channels/488621078302949377/552548093703487510/876211029997146153)]
+      - Don't show vote buttons on your own assets. [[1](https://discord.com/channels/488621078302949377/552548093703487510/874395798740275261)]
+      - Fix "upload your own asset" links. [[1](https://discord.com/channels/488621078302949377/637331370166976512/877643077261619200) [2](https://discord.com/channels/488621078302949377/552548093703487510/877290004416720957)]
+...
